@@ -24,7 +24,7 @@
 /*default hidden drop stuff*/
 .theDropStuff {
     display: none;
-    position: absolute;
+    position: relative;
     background-color: #50ff49;
     min-width: 30%;
 }
