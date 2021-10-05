@@ -40,10 +40,7 @@ window.onclick = function(event) {
 
         // run through the one position that dropdowns will have and add or remove the show function
         for (let i = 0; i < dropdowns.length; i++) {
-            let openDropdown = dropdowns[i];
-            // if (openDropdown.classList.contains('show')) {
-            //     openDropdown.classList.remove('show');
-            // }
+
             if (dropdowns[i].classList.contains('show')) {
                 dropdowns[i].classList.remove('show');
             }
